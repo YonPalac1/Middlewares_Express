@@ -5,4 +5,18 @@
 body {
   margin: 0;
   font-family: sans-serif;
+  text-align: center;
+}
+form {
+  display: flex;
+  justify-content: center;
+}
+form input {
+  padding: 8px 10px;
+  border-left: 0px;
+  border: 1px solid #000;
+}
+form button {
+  background: none;
+  border: 1px solid #000;
 }
